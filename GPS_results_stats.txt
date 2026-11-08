@@ -1,0 +1,139 @@
+
+FILE 1 (nmea-test1-1.txt)
+  Sentence types: {'GPGGA': 231, 'GPGSA': 231, 'GPRMC': 231, 'GPVTG': 231, 'GPGSV': 116}
+  Checksum/log info: {'satellites_in_view_max': 10, 'satellites_in_view_min': 5, 'nmea_lines': 1040, 'valid_checksum': 1040, 'invalid_checksum': 0, 'unmatched_gga': 0, 'dates': ['041125']}
+  RMC records: 231 valid fix records: 219 invalid fix records: 12
+  Valid period: 09:06:02 - 09:09:40
+  n                        : 219
+  duration_s               : 218.00
+  start_s                  : 32762.00
+  end_s                    : 32980.00
+  start_lat                : 47.47
+  start_lon                : 19.06
+  end_lat                  : 47.47
+  end_lon                  : 19.06
+  lat_mean                 : 47.47
+  lon_mean                 : 19.06
+  min_speed_kmh            : 0.04
+  mean_speed_kmh           : 0.87
+  median_speed_kmh         : 0.69
+  max_speed_kmh            : 2.31
+  p95_speed_kmh            : 2.02
+  speed_under_1kmh_pct     : 72.60
+  sat_min                  : 3
+  sat_max                  : 5
+  sat_mean                 : 4.00
+  hdop_median              : 2.17
+  hdop_max                 : 54.49
+  altitude_median          : 108.10
+  altitude_min             : 106.60
+  altitude_max             : 108.90
+  net_displacement_m       : 10.50
+  successive_distance_m    : 80.26
+  e_std_m                  : 4.08
+  n_std_m                  : 5.15
+  radial_rms_m             : 6.56
+  radial_p50_m             : 5.59
+  radial_p68_m             : 6.70
+  radial_p95_m             : 12.39
+  radial_max_m             : 13.19
+  radial_2drms_m           : 13.14
+  e_span_m                 : 15.16
+  n_span_m                 : 18.16
+
+FILE 2 (nmea-test2-1.txt)
+  Sentence types: {'GPGGA': 327, 'GPGSA': 327, 'GPRMC': 327, 'GPVTG': 327, 'GPGSV': 260}
+  Checksum/log info: {'satellites_in_view_max': 14, 'satellites_in_view_min': 13, 'nmea_lines': 1568, 'valid_checksum': 1568, 'invalid_checksum': 0, 'unmatched_gga': 0, 'dates': ['041125']}
+  RMC records: 327 valid fix records: 327 invalid fix records: 0
+  Valid period: 09:11:41 - 09:17:07
+  n                        : 327
+  duration_s               : 326.00
+  start_s                  : 33101.00
+  end_s                    : 33427.00
+  start_lat                : 47.47
+  start_lon                : 19.06
+  end_lat                  : 47.47
+  end_lon                  : 19.06
+  lat_mean                 : 47.47
+  lon_mean                 : 19.06
+  min_speed_kmh            : 0.04
+  mean_speed_kmh           : 3.95
+  median_speed_kmh         : 4.07
+  max_speed_kmh            : 6.96
+  p95_speed_kmh            : 5.46
+  speed_under_1kmh_pct     : 3.36
+  sat_min                  : 6
+  sat_max                  : 7
+  sat_mean                 : 6.57
+  hdop_median              : 1.56
+  hdop_max                 : 2.86
+  altitude_median          : 108.60
+  altitude_min             : 85.40
+  altitude_max             : 111.10
+  net_displacement_m       : 23.96
+  successive_distance_m    : 393.82
+  e_std_m                  : 35.22
+  n_std_m                  : 35.69
+  radial_rms_m             : 50.07
+  radial_p50_m             : 45.98
+  radial_p68_m             : 53.74
+  radial_p95_m             : 70.99
+  radial_max_m             : 75.51
+  radial_2drms_m           : 100.29
+  e_span_m                 : 110.61
+  n_span_m                 : 103.60
+
+TEST 1: 3D FIX ONLY
+  n                        : 142
+  duration_s               : 141.79
+  start_s                  : 32838.21
+  end_s                    : 32980.00
+  start_lat                : 47.47
+  start_lon                : 19.06
+  end_lat                  : 47.47
+  end_lon                  : 19.06
+  lat_mean                 : 47.47
+  lon_mean                 : 19.06
+  min_speed_kmh            : 0.04
+  mean_speed_kmh           : 0.72
+  median_speed_kmh         : 0.61
+  max_speed_kmh            : 2.31
+  p95_speed_kmh            : 1.75
+  speed_under_1kmh_pct     : 82.39
+  sat_min                  : 4
+  sat_max                  : 5
+  sat_mean                 : 4.54
+  hdop_median              : 2.17
+  hdop_max                 : 2.91
+  altitude_median          : 107.10
+  altitude_min             : 106.60
+  altitude_max             : 108.70
+  net_displacement_m       : 3.69
+  successive_distance_m    : 39.62
+  e_std_m                  : 3.36
+  n_std_m                  : 3.31
+  radial_rms_m             : 4.70
+  radial_p50_m             : 4.40
+  radial_p68_m             : 5.27
+  radial_p95_m             : 7.55
+  radial_max_m             : 7.83
+  radial_2drms_m           : 9.43
+  e_span_m                 : 10.15
+  n_span_m                 : 10.19
+
+TEST 1: after 60s of valid fixes (159 fixes)
+  R95 7.07 radial RMS 4.57 mean speed km/h 0.72 max speed 2.31
+
+TEST 1: after 90s of valid fixes (129 fixes)
+  R95 8.04 radial RMS 4.65 mean speed km/h 0.73 max speed 2.31
+
+TEST 1: after 120s of valid fixes (99 fixes)
+  R95 3.92 radial RMS 2.80 mean speed km/h 0.73 max speed 2.06
+
+TEST 1: after 150s of valid fixes (69 fixes)
+  R95 3.93 radial RMS 2.80 mean speed km/h 0.61 max speed 1.19
+
+TEST 1: after 180s of valid fixes (39 fixes)
+  R95 3.50 radial RMS 2.13 mean speed km/h 0.65 max speed 1.17
+
+Saved plots and parsed CSV to GPS_results
